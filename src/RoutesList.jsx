@@ -1,6 +1,5 @@
 import ContentList from "./components/ContentList";
-import HeadTag from "./components/htmlPart/HeadTag";
-import HtmlPartMain from "./components/htmlPart/HtmlPartMain";
+import StudyList from "./components/StudyList";
 
 export default [
     {
@@ -9,12 +8,8 @@ export default [
     },
 
     {
-        path: '/htmlpart_main',
-        element: HtmlPartMain
-    },
-
-    {
-        path: '/htmlpart_main/headtag',
-        element: HeadTag
+        path: '/:path',
+        element: StudyList
     }
+
 ];

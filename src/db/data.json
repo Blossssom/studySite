@@ -1,0 +1,27 @@
+{
+    "studylists": [
+        {
+            "id": 1,
+            "path": "/htmlpart_main",
+            "title": "html"
+        },
+
+        {
+            "id": 2,
+            "path": "/csspart_main",
+            "title": "css"
+        }
+    ],
+
+    "detailstudy": [
+        {
+            "path": "/htmlpart_main",
+            "title": "html"
+        },
+
+        {
+            "path": "/csspart_main",
+            "title": "css"
+        }
+    ]
+}

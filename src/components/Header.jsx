@@ -4,11 +4,11 @@ import '../css/main.css';
 function Header() {
     return(
         <>
-            <div className="wrap-header">
+            <header className="wrap-header">
                     <Link to="/" className='logo-main'>
                         <h1>My Study</h1>
                     </Link>
-            </div>
+            </header>
         </>
     );
 }
