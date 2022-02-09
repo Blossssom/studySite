@@ -15,15 +15,20 @@ function StudyList() {
             })
     }, []);
 
-    
-    // const dataList = study.map(res => {
-    //     console.log(res);
-    // })
+    const dataList = study.filter((data) => {
+        return data.path === location.state;
+    });
 
     return(
         <>
             <div className="wrap-htmlpart">
                 <div className="htmlpart-content">
+                    {
+                        dataList.map((res) => {
+                            console.log(res)
+                            return <p>{res.title}</p>
+                        })
+                    }
                 </div>
             </div>
         </>
