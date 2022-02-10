@@ -2,26 +2,75 @@
     "studylists": [
         {
             "id": 1,
-            "path": "/htmlpart_main",
+            "path": "/study_htmlpart_main",
             "title": "html"
         },
 
         {
             "id": 2,
-            "path": "/csspart_main",
+            "path": "/study_csspart_main",
             "title": "css"
+        },
+
+        {
+            "id": 3,
+            "path": "/study_jspart_main",
+            "title": "js"
+        },
+
+        {
+            "id": 4,
+            "path": "/study_reactpart_main",
+            "title": "react"
         }
     ],
 
     "detailstudy": [
         {
-            "path": "/htmlpart_main",
-            "title": "html"
+            "id": "htmlpart_main",
+            "title": "HTML Study part",
+            "list": [
+                {
+                    "title": "HeadTag",
+                    "path": "/:path"
+                },
+
+                {
+                    "title": "p Tag",
+                    "path": "/:path"
+                },
+
+                {
+                    "title": "a Tag",
+                    "path": "/:path"
+                },
+
+                {
+                    "title": "section Tag",
+                    "path": "/:path"
+                },
+
+                {
+                    "title": "article Tag",
+                    "path": "/:path"
+                },
+
+                {
+                    "title": "main Tag",
+                    "path": "/:path"
+                }
+            ]
         },
 
         {
-            "path": "/csspart_main",
-            "title": "css"
+            "id": "csspart_main",
+            "title": "CSS Study part",
+            "list": [
+                {
+                    "title": "Head Tag",
+                    "path": "/:path"
+                }
+            ]
         }
     ]
 }
